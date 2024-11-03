@@ -9,9 +9,6 @@ This project implements a machine learning model to predict diabetes based on me
 
 The project is designed to predict the likelihood of diabetes in patients based on specific health metrics like glucose level, blood pressure, BMI, and more. It uses a Random Forest Classifier to provide high accuracy and stability in predictions.
 
-## Dataset
-
-The dataset used is the **Pima Indians Diabetes Dataset**, available on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes).
 
 ### Features
 The dataset includes 8 medical predictors:
