@@ -5,15 +5,6 @@
 
 This project implements a machine learning model to predict diabetes based on medical data, using the Pima Indians Diabetes dataset. The model utilizes a Random Forest Classifier and various preprocessing techniques to provide a classification between diabetic (1) and non-diabetic (0) individuals.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model](#model)
-- [Evaluation](#evaluation)
-- [License](#license)
-
 ## Introduction
 
 The project is designed to predict the likelihood of diabetes in patients based on specific health metrics like glucose level, blood pressure, BMI, and more. It uses a Random Forest Classifier to provide high accuracy and stability in predictions.
@@ -28,7 +19,7 @@ The dataset includes 8 medical predictors:
 2. `Glucose` - Plasma glucose concentration
 3. `BloodPressure` - Diastolic blood pressure (mm Hg)
 4. `SkinThickness` - Triceps skinfold thickness (mm)
-5. `Insulin` - 2-Hour serum insulin (mu U/ml)
+5. `Insulin` - 2-hour serum insulin (mu U/ml)
 6. `BMI` - Body mass index (weight in kg/(height in m)^2)
 7. `DiabetesPedigreeFunction` - Diabetes pedigree function
 8. `Age` - Age (years)
@@ -58,15 +49,4 @@ Accuracy - Percentage of correct predictions.
 Confusion Matrix - Provides insight into the types of classification errors.
 Classification Report - Displays precision, recall, and F1-score for each class.
 
-Model Accuracy: 77.92%
-Confusion Matrix:
- [[87 13]
- [21 33]]
-Classification Report:
-               precision    recall  f1-score   support
-           0       0.81      0.87      0.84       100
-           1       0.72      0.61      0.66        54
-    accuracy                           0.78       154
-   macro avg       0.76      0.74      0.75       154
-weighted avg       0.77      0.78      0.77       154
 
